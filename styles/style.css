@@ -1,0 +1,14 @@
+:root { --brand-color: #025602; }
+        body { font-family: 'Inter', sans-serif; }
+        .bg-brand { background-color: var(--brand-color); }
+        .text-brand { color: var(--brand-color); }
+        .border-brand { border-color: var(--brand-color); }
+        .btn-primary { 
+            background-color: var(--brand-color); 
+            color: white; 
+            padding: 12px 28px; 
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        .btn-primary:hover { opacity: 0.9; transform: translateY(-2px); }
+        .reveal { visibility: hidden; }
